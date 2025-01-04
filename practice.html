@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="pstyle.css">
+</head>
+<body>
+
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Your Trip Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="trip-planner">
+        <h2>Your Trip</h2>
+        <p>Excellent <img src="trustpilot-star-rating.png" alt="Trustpilot star rating"></p>
+
+        <label for="destination">Where would you like to go?*</label>
+        <input type="text" id="destination" name="destination" placeholder="Select as many options as you want">
+
+        <label for="departure-month">When would you like to go?</label>
+        <select id="departure-month" name="departure-month">
+            <option value="">Select a month</option>
+            </select>
+        <select id="departure-year" name="departure-year">
+            <option value="">Select a year</option>
+            </select>
+
+        <label for="duration">How long for?*</label>
+        <input type="number" id="duration" name="duration" placeholder="Duration of trip">
+
+        <label for="travelers">How many people are travelling?</label>
+        <input type="number" id="travelers" name="travelers" placeholder="Select a number">
+
+        <label for="budget">How much would you like to spend per person?</label>
+        <div class="budget-slider">
+            <input type="range" id="budget" name="budget" min="5000" max="10000" value="5000">
+            <span id="budget-value">£5,000 - £10,000</span>
+        </div>
+
+        <button type="submit">Plan Your Trip</button>
+    </div>
+</body>
+</html>
+  
+</body>
+</html>
